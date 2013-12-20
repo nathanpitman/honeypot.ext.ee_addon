@@ -1,4 +1,4 @@
-User Freeform Honeypot for ExpressionEngine
+User/Freeform Honeypot for ExpressionEngine
 ===========================================
 Originally developed by <a href="http://bridgingunit.com">Aidann Bowley</a>, later hacked by Nathan Pitman of <a href="http://github.com/ninefour">Nine Four</a> to work with Freeform and then migrated to EE2.x.
 
