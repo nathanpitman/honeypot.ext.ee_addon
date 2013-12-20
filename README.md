@@ -1,11 +1,11 @@
 User Freeform Honeypot for ExpressionEngine
 ===========================================
-Originally developed by <a href="http://bridgingunit.com">Aidann Bowley</a>, later hacked by Nathan Pitman of <a href="http://github.com/ninefour">ninefour</a> to work with Freeform and then migrated to EE2.x.
+Originally developed by <a href="http://bridgingunit.com">Aidann Bowley</a>, later hacked by Nathan Pitman of <a href="http://github.com/ninefour">Nine Four</a> to work with Freeform and then migrated to EE2.x.
 
 The "User Freeform Honeypot" extension helps to limit Solspace User module and Solspace Freeform module spam by testing against a field that should not be completed, a honeypot.
 
 
-Usage example:
+<b>Usage example:</b>
 
 Enable the extension and specify the name of the field in your form which you will use as the honeypot through the extension settings screen. This defaults to 'swine' but we suggest you change it to something which is less likely to reveal it's intent.
 
@@ -13,7 +13,6 @@ Manually add the corresponding field to your front end 'User' and/or 'Freeform' 
 
 ```c
 <input type="text" name="swine">
-...
 ```
 Hide the field in question using CSS:
 
