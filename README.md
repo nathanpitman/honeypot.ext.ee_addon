@@ -1,8 +1,8 @@
-User/Freeform Honeypot for ExpressionEngine
+Honeypot for ExpressionEngine
 ===========================================
 Originally developed by <a href="http://bridgingunit.com">Aidann Bowley</a>, later hacked by Nathan Pitman of <a href="http://github.com/ninefour">Nine Four</a> to work with Freeform and then migrated to EE2.x.
 
-The "User Freeform Honeypot" extension helps to limit Solspace User module and Solspace Freeform module spam by testing against a field that should not be completed, a honeypot.
+The "Honeypot<s>User Freeform Honeypot</s>" extension helps to limit spam submissions made via popular modules such as "Solspace User", "Solspace Freeform" and "Expresso FreeMember" by testing against a field that should not be completed, a honeypot.
 
 
 <b>Usage example:</b>
@@ -24,4 +24,4 @@ input[name=swine] {
 
 (Most) humans will never see the field, as such they will never complete it, the form will only accept a submission if the honeypot is empty. Most robots will add content to the honeypot and fail the form submission.
 
-You can also optionally  have an error message shown if the spammer fills in the honeypot field. If left to default to 'no' then User and Freeform forms will simply redirect to the site index when they catch somethign in the honeypot.
+You can also optionally  have an error message shown if a spammer/robot fills in the honeypot field. If left to default to 'no' then User and Freeform forms will simply redirect to the site index when they catch somethign in the honeypot.
