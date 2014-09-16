@@ -1,6 +1,6 @@
 Honeypot for ExpressionEngine
 ===========================================
-Originally developed by <a href="http://bridgingunit.com">Aidann Bowley</a>, later hacked by Nathan Pitman of <a href="http://github.com/ninefour">Nine Four</a> to work with Freeform and then migrated to EE2.x.
+Originally developed by <a href="http://bridgingunit.com">Aidann Bowley</a>, later hacked by Nathan Pitman of <a href="http://github.com/ninefour">Nine Four</a> to work with User and then migrated to EE2.x.
 
 The "Honeypot<s>User Freeform Honeypot</s>" extension helps to limit spam submissions made via popular modules such as "Solspace User", "Solspace Freeform" and "Expresso FreeMember" by testing against a field that should not be completed, a honeypot.
 
