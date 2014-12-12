@@ -19,6 +19,7 @@
 	0.9.1 - 17 October 2012 - extension hacked to work with Solspace Freeform
 	0.9.2 - 20 March 2013 - migrated to EE2.x
 	0.9.3 - 08 May 2014 - added support for Expresso FreeMember
+	0.9.4 - 12 December 2014 - added support for EE comment forms
 =============================================================
 
 
@@ -29,8 +30,8 @@ class Nf_honeypot_ext
     var $settings        = array();
 
 	var $name            = 'NF Honeypot';
-    var $version         = '0.9.3';
-    var $description     = 'Help limit spam submissions from popular add-ons like Solspace User, Freeform and Expresso FreeMember by testing against a field that should not be completed, a honeypot.';
+    var $version         = '0.9.4';
+    var $description     = 'Help limit spam submissions through native comment forms and popular add-ons like Solspace User, Freeform and Expresso FreeMember by testing against a field that should not be completed, a honeypot.';
     var $settings_exist  = 'y';
     var $docs_url        = 'https://github.com/ninefour/honeypot.ext.ee_addon';//'http://expressionengine.com';
 
@@ -56,7 +57,8 @@ class Nf_honeypot_ext
 		$hooks = array(
 			'freeform_module_validate_end' => 'honeypot',
 			'user_register_end' => 'honeypot',
-			'freemember_register_validation' => 'honeypot'
+			'freemember_register_validation' => 'honeypot',
+			'insert_comment_start' => 'honeypot'
 			);
 
 		$this->_add_hooks($hooks, $settings);
